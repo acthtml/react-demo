@@ -1,0 +1,5 @@
+.drawer-panel{position: relative; width: 100%; height: 100%; }
+.drawer-panel .drawer-panel-left{position: absolute;top: 0;left: -270px; width: 270px; bottom: 0; transition: all 0.5s ease;}
+.drawer-panel .drawer-panel-main{
+  /*@apply(--layout-flex);*/
+}

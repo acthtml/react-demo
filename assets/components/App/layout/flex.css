@@ -1,0 +1,39 @@
+/**
+ * @file layout flex classes.
+ */
+.layout.horizontal,
+.layout.vertical {
+  @apply --layout;
+}
+.layout.inline {
+  @apply --layout-inline;
+}
+.layout.horizontal {
+  @apply --layout-horizontal;
+}
+.layout.vertical {
+  @apply --layout-vertical;
+}
+.layout.wrap {
+  @apply --layout-wrap;
+}
+.layout.no-wrap {
+  @apply --layout-nowrap;
+}
+.layout.center,
+.layout.center-center {
+  @apply --layout-center;
+}
+.layout.center-justified,
+.layout.center-center {
+  @apply --layout-center-justified;
+}
+.flex {
+  @apply --layout-flex;
+}
+.flex-auto {
+  @apply --layout-flex-auto;
+}
+.flex-none {
+  @apply --layout-flex-none;
+}

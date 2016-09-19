@@ -1,0 +1,12 @@
+/**
+ * @file Button
+ */
+.button{display: inline-block; position: relative; height: 36px; padding: 0 6px; line-height: 36px; border-radius: 2px; vertical-align: middle; transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);-webkit-user-select: none;}
+.button.rasied{background: #fff; color: #000;}
+.button.disabeld{background:#eaeaea; color: #a8a8a8;}
+.button:hover{cursor: pointer;}
+.button.disabled:hover{cursor: default;}
+.button .icon{vertical-align: middle;}
+
+.button.button-icon{border-radius: 100%;}
+.button.button-block{display: block;}
